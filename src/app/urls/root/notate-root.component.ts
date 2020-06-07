@@ -7,26 +7,26 @@ import { Context } from "../../mockAndroid/Context";
   styleUrls: ["./notate-root.component.css"]
 })
 export class NotateRoot {
-  ngOnInit() {
-    this.text.action_bar = Context.getString("root.action_bar");
-    this.text.action_button = Context.getString("root.action_button");
-    this.text.page1_title = Context.getString("root.page1_title");
-    this.text.page1_body = Context.getString("root.page1_body");
-    this.text.page2_title = Context.getString("root.page2_title");
-    this.text.page2_subtitle = Context.getString("root.page2_subtitle");
-    this.text.page2_body = Context.getString("root.page2_body");
-    this.text.page3_title = Context.getString("root.page3_title");
-    this.text.page3_body = Context.getString("root.page3_body");
-    this.text.page4_title = Context.getString("root.page4_title");
-    this.text.page4_body = Context.getString("root.page4_body");
-    this.text.page5_title = Context.getString("root.page5_title");
-    this.text.page5_body = Context.getString("root.page5_body");
-    this.text.page6_title = Context.getString("root.page6_title");
-    this.text.page6_body = Context.getString("root.page6_body");
+  async ngOnInit() {
+    this.text.action_bar = await Context.getString("root.action_bar");
+    this.text.action_button1 = await Context.getString("root.action_button");
+    this.text.page1_title = await Context.getString("root.page1_title");
+    this.text.page1_body = await Context.getString("root.page1_body");
+    this.text.page2_title = await Context.getString("root.page2_title");
+    this.text.page2_subtitle = await Context.getString("root.page2_subtitle");
+    this.text.page2_body = await Context.getString("root.page2_body");
+    this.text.page3_title = await Context.getString("root.page3_title");
+    this.text.page3_body = await Context.getString("root.page3_body");
+    this.text.page4_title = await Context.getString("root.page4_title");
+    this.text.page4_body = await Context.getString("root.page4_body");
+    this.text.page5_title = await Context.getString("root.page5_title");
+    this.text.page5_body = await Context.getString("root.page5_body");
+    this.text.page6_title = await Context.getString("root.page6_title");
+    this.text.page6_body = await Context.getString("root.page6_body");
   }
   public text = {
     action_bar: null, //Write Music
-    action_button: null, //Download
+    action_button1: null, //Download
     page1_title: null, //Make music happen where you are now
     page1_body: null /* With Notate, you can write music on the go. In the places that inspire you
     the most: at the park, at the coffe shop, or even in the shower(be careful

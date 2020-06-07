@@ -15,7 +15,7 @@ export class Context {
   public static async getString(name: string): Promise<string> {
     if (Context.stringSpecific == null) {//nan
       Context.stringSpecific = new ValuesEN();
-      Context.stringDefaults = ne
+      Context.stringDefaults = new ValuesEN();
     }
 
     let dir = name.split(".");
