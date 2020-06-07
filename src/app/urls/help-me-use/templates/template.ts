@@ -7,8 +7,7 @@ export class Template {
   template_it: string = null;
 
   public getTemplate(
-    language: string = navigator.language,
-    callback: (string) => void
+    language: string = navigator.language
   ): Promise<{ title: string; steps: any[] }> {
     if (language.indexOf("-") >= 0) {
       language = language.substring(0, language.indexOf("-"));
@@ -36,14 +35,13 @@ export class Template {
         break;
     }
     if (retu == null) {
-      return this.fetchJson(this.template, callback);
+      return this.fetchJson(this.template);
     }
-    return this.fetchJson(retu, callback);
+    return this.fetchJson(retu);
   }
 
   private async fetchJson(
-    url: string,
-    callback: (string) => void
+    url: string
   ): Promise<{ title: string; steps: any[] }> {
     let response = await fetch(url);
     return response.json();
