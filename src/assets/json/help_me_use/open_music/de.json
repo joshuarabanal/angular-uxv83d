@@ -1,0 +1,13 @@
+{
+  "title": "Songs importieren",
+  "steps": [
+    {
+      "title": "Öffnen Sie externe Dateien",
+      "body": "Sie können Musik-XML-Dateien aus externen Quellen öffnen, um sie in der Anwendung anzuzeigen. Laden Sie sie auf Ihr Telefon herunter. Wenn Sie versuchen, die Datei zu öffnen, sollte diese Anwendung als Option angezeigt werden. Wenn die App nicht angezeigt wird, können Sie diese bestimmte Datei in unserer App nicht öffnen."
+    },
+    {
+      "title": "Durchsuchen Sie Beispielsongs",
+      "body": "Sie können einige Beispielsongs herunterladen, indem Sie bei Google nach (musicXML-Dateien) suchen."
+    }
+  ]
+}

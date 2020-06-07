@@ -1,0 +1,13 @@
+{
+  "title": "Añade estilo a su música",
+  "steps": [
+    {
+      "title": "Agregar estilo a una nota",
+      "body": "Puede agregar estilo a una nota haciendo clic en ella y editando la nota. Consulte: <a href='help_me_use.html?type=edit_note'> Editar nota </a> para obtener más información"
+    },
+    {
+      "title": "Agregue una marca de estilo a la música",
+      "body": "Puede agregar estilos adicionales a las notas haciendo clic en la barra de botones con todos los íconos adicionales. Puedes agregar dinámicas y otras marcas a tu música"
+    }
+  ]
+}

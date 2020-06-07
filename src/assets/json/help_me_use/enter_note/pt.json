@@ -1,0 +1,17 @@
+{
+  "title": "Inserir uma nota",
+  "steps": [
+    {
+      "title": "Inserir notas",
+      "body": "Você insere notas usando o teclado. Basta pressionar as teclas do teclado e elas aparecerão onde o cursor está piscando na página."
+    },
+    {
+      "title": "Digite notas diferentes",
+      "body": "Para alterar o tamanho da nota digitada, clique na lista de tipos de nota flutuando acima do teclado. Clique em Meia nota, por exemplo, e agora o teclado entra com meia nota na música. A nota destacada é a anotação inserida."
+    },
+    {
+      "title": "Inserir descansos",
+      "body": "<a href='help_me_use.html?type=enter_rest'> clique aqui para saber como </a>"
+    }
+  ]
+}

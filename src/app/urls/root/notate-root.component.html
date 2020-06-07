@@ -1,0 +1,75 @@
+<title>compose Music</title>
+<parallax img="assets/img/root/parallax.jpg">
+  <action-bar title="{{text.action_bar}}">
+    <action-button
+      title="{{text.action_button1}}"
+      href="https://play.google.com/store/apps/details?id=com.musicxml"
+    ></action-button>
+  </action-bar>
+
+  <page background="#fafafa" title="{{text.page1_title}}">
+    <page-section float="left">
+      <img
+        class="roundedImg"
+        src="assets/img/root/promo_phone.jpg"
+        width="100%"
+      />
+    </page-section>
+
+    <page-section float="right">
+      {{text.page1_body}}
+    </page-section>
+  </page>
+
+  <page title="{{text.page2_title}}">
+    <div class="splitScreenRight">
+      <page-section float="left" title="{{text.page2_subtitle}}">
+        {{text.page2_body}}
+      </page-section>
+      <page-section float="right" class="bluePhone">
+        <img
+          class="roundedImg promo"
+          src="assets/img/root/promo1.png"
+          width="100%"
+        />
+      </page-section>
+    </div>
+  </page>
+
+  <page>
+    <div class="splitScreenLeft">
+      <page-section float="right" title="{{text.page3_title}}">
+        {{text.page3_body}}
+      </page-section>
+      <page-section float="left">
+        <img class="roundedImg promo" src="assets/img/root/promo2.png" />
+      </page-section>
+    </div>
+  </page>
+
+  <page>
+    <div class="splitScreenRight">
+      <page-section float="left" title="{{text.page4_title}}">
+        {{text.page4_body}}
+      </page-section>
+      <page-section float="right">
+        <img
+          class="roundedImg promo"
+          src="assets/img/root/promo3.png"
+          width="100%"
+        />
+      </page-section>
+    </div>
+  </page>
+
+  <page-banner
+    title="{{text.page5_title}}"
+    href="https://play.google.com/store/apps/details?id=com.musicxml"
+    button="{{text.page5_body}}"
+  ></page-banner>
+  <page-banner
+    title="{{text.page6_title}}"
+    href="help.html"
+    button="{{text.page6_body}}"
+  ></page-banner>
+</parallax>

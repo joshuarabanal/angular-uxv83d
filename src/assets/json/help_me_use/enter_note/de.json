@@ -1,0 +1,17 @@
+{
+  "title": "Geben Sie eine Notiz ein",
+  "steps": [
+    {
+      "title": "Notizen eingeben",
+      "body": "Sie geben Notizen über die Tastatur ein. Drücken Sie einfach die Tasten auf der Tastatur und sie erscheinen dort, wo sich der blinkende Cursor auf der Seite befindet."
+    },
+    {
+      "title": "Geben Sie verschiedene Notizen ein",
+      "body": "Um die Länge der eingegebenen Notiz zu ändern, klicken Sie auf die Liste der über der Tastatur schwebenden Notentypen. Klicken Sie zum Beispiel auf Half Note, und jetzt gibt die Tastatur halbe Noten in die Musik ein. Die hervorgehobene Notiz ist die eingegebene Notiz."
+    },
+    {
+      "title": "Reste eingeben",
+      "body": "<a href='help_me_use.html?type=enter_rest'> Klicken Sie hier, um zu erfahren, wie </a>"
+    }
+  ]
+}

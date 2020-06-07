@@ -1,0 +1,17 @@
+{
+  "title": "Teile dein Lied",
+  "steps": [
+    {
+      "title": "Teile dein Lied",
+      "body": "Man kann ihre Musik in verschiedenen Dateiformaten teilen. Der erste Schritt ist das Speichern des Songs."
+    },
+    {
+      "title": "Lied speichern",
+      "body": "Öffnen Sie das Menü auf der rechten Seite des Bildschirms und klicken Sie auf die Schaltfläche Speichern (die Schaltfläche ist eine Diskette). Sie können den Namen Ihres Songs auch ändern, indem Sie auf den Titel neben der Schaltfläche Speichern klicken und den Text ändern."
+    },
+    {
+      "title": "Lied teilen",
+      "body": "Klicken Sie anschließend im selben Menü auf die Schaltfläche 'Teilen'. Von dort öffnet sich ein Fenster. In diesem Fenster können Sie auswählen, wie Sie das Lied teilen möchten."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Importar músicas",
+  "steps": [
+    {
+      "title": "Abrir arquivos externos",
+      "body": "Você pode abrir arquivos xml de música de fontes externas para visualizar no aplicativo. Faça o download deles no seu telefone e quando você tentar abrir o arquivo, esse aplicativo deverá aparecer como uma opção. Se o aplicativo não aparecer, você não poderá abrir este arquivo específico em nosso aplicativo."
+    },
+    {
+      "title": "procurar músicas de exemplo",
+      "body": "Você pode baixar algumas músicas de amostra pesquisando no google (arquivos musicXML)"
+    }
+  ]
+}

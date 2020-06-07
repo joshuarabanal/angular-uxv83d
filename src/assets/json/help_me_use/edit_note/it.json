@@ -1,0 +1,17 @@
+{
+  "title": "modificare nota",
+  "steps": [
+    {
+      "title": "Seleziona una nota",
+      "body": "Fai clic sulla nota che desideri modificare nella partitura"
+    },
+    {
+      "title": "Apri la finestra di modifica",
+      "body": "Apri la finestra di dialogo dell'editor delle note, facendo clic sull'icona della matita nell'angolo in alto a destra dallo schermo."
+    },
+    {
+      "title": "Modifica la nota",
+      "body": "La finestra di dialogo ti aiuterà a modificare la nota che hai selezionato. se hai bisogno di aiuto per usare la finestra di dialogo, fai clic sull'icona del punto interrogativo nell'angolo in alto a destra della finestra di dialogo."
+    }
+  ]
+}

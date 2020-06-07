@@ -1,0 +1,21 @@
+{
+  "title": "Editar nota",
+  "steps": [
+    {
+      "title": "Selecionar entrada restante",
+      "body": "clique no botão quarto de descanso para abrir a ferramenta enter rests acima do teclado."
+    },
+    {
+      "title": "Selecione o resto",
+      "body": "agora, as notas se transformam em descansos. Selecione o restante que deseja inserir."
+    },
+    {
+      "title": "Sair repousa a ferramenta",
+      "body": "Para retornar à entrada de notas regulares, clique na semínima. isso mudará todas as notas de volta para notas regulares."
+    },
+    {
+      "title": "Editar descansos",
+      "body": "<a href='help_me_use.html?type=edit_note'> saiba como editar uma nota que já foi inserida </a>"
+    }
+  ]
+}

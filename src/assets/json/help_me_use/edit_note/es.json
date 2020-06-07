@@ -1,0 +1,17 @@
+{
+  "title": "Editar Notas",
+  "steps": [
+    {
+      "title": "Seleccione una nota",
+      "body": "Haga clic en la nota que desea editar en la partitura"
+    },
+    {
+      "title": "Abrir diálogo de edición",
+      "body": "Abra el cuadro de diálogo del editor de notas, haciendo clic en el ícono de lápiz en la esquina superior derecha de la pantalla."
+    },
+    {
+      "title": "Edite la nota",
+      "body": "El cuadro de diálogo se ayudará a editar la nota que Utd. seleccionó. si necesita ayuda para usar el diálogo, haga clic en el icono de signo de '?' en la esquina superior derecha del cuadro de diálogo."
+    }
+  ]
+}

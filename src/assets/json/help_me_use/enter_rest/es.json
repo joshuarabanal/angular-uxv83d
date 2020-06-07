@@ -1,0 +1,21 @@
+{
+  "title": "Editar nota",
+  "steps": [
+    {
+      "title": "Seleccionar entrada de descanso",
+      "body": "haga clic en el botón de cuarto de descanso para abrir la herramienta de enter enter sobre el teclado."
+    },
+    {
+      "title": "Seleccione el silencio",
+      "body": "ahora, las notas se transforman en pausas. Seleccione la selencio que desea ingresar."
+    },
+    {
+      "title": "Salir de herramienta de Silencios",
+      "body": "Para volver a la entrada de nota regular, haga clic en la nota cuarto. Esto cambiará todas las notas a notas normales."
+    },
+    {
+      "title": "Editar pausas",
+      "body": "<a href='help_me_use.html?type=edit_note'> aprenda a editar una nota que ya se ingresó </a>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "compartilhe sua música",
+  "steps": [
+    {
+      "title": "compartilhe sua música",
+      "body": "Pode-se compartilhar suas músicas para vários formatos de arquivo. O primeiro passo é salvar a música."
+    },
+    {
+      "title": "Salvar arquivo de música",
+      "body": "abra o menu no lado direito da tela e clique no botão Salvar (o botão é um disquete). Você também pode alterar o nome da sua música clicando no título ao lado do botão Salvar e alterando o texto."
+    },
+    {
+      "title": "compartilhar música",
+      "body": "Em seguida, clique no botão de compartilhamento no mesmo menu. A partir daí, uma janela será exibida. Você pode escolher como deseja compartilhar a música nesta janela."
+    }
+  ]
+}

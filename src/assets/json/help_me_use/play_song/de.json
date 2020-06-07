@@ -1,0 +1,13 @@
+{
+  "title": "Lied spielen",
+  "steps": [
+    {
+      "title": "Spielen Sie, während Sie bearbeiten",
+      "body": "Sie können Ihr Lied anhören, während Sie es bearbeiten, indem Sie die Wiedergabetaste in der oberen rechten Ecke der Anwendung verwenden. Es spielt Ihre Songs ab, sodass Sie schnell Änderungen vornehmen können"
+    },
+    {
+      "title": "Speichern Sie Ihre Songs als Audio",
+      "body": "Sie können Ihre Songs auch in Audiodateien exportieren, um sie für später zu speichern oder für Ihre Freunde zu veröffentlichen. <a href='help_me_use.html?type=share_music'> Klicken Sie hier </a>, um zu erfahren, wie Sie die Audiodatei freigeben."
+    }
+  ]
+}

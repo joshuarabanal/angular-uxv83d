@@ -1,0 +1,13 @@
+{
+  "title": "Importar partituras",
+  "steps": [
+    {
+      "title": "Abrir archivo externo",
+      "body": "Puede abrir archivos xml de música (musicXML) desde fuentes externas para ver en la aplicación. Descárguelos en su teléfono y cuando intente abrir el archivo, esta aplicación debería aparecer como una opción. Si la aplicación no aparece, no puede abrir este archivo específico en nuestra aplicación."
+    },
+    {
+      "title": "navegar por canciones de muestra",
+      "body": "Puede descargar algunas canciones de muestra buscando en google (archivos musicXML)"
+    }
+  ]
+}

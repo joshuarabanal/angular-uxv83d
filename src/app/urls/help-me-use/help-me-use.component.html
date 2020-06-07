@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+  <span>{{steps.title}}</span>
+</mat-toolbar>
+
+<mat-vertical-stepper>
+  <mat-step *ngFor="let step of steps.steps" label="{{step.title}}">
+    <div [innerHTML]="step.body"></div>
+  </mat-step>
+</mat-vertical-stepper>

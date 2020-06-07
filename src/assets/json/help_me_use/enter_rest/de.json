@@ -1,0 +1,21 @@
+{
+  "title": "Notizen bearbeiten",
+  "steps": [
+    {
+      "title": "Resteintrag auswählen",
+      "body": "Klicken Sie auf die Schaltfläche für die Viertelpause, um das Werkzeug zum Eingeben von Pausen über der Tastatur zu öffnen."
+    },
+    {
+      "title": "Wählen Sie den Rest",
+      "body": "Jetzt verwandeln sich die Noten in Pausen. Wählen Sie den Rest aus, den Sie eingeben möchten."
+    },
+    {
+      "title": "Pausenwerkzeug verlassen",
+      "body": "Klicken Sie auf die Viertelnote, um zur regulären Noteneingabe zurückzukehren. Dadurch werden alle Noten wieder in normale Noten umgewandelt."
+    },
+    {
+      "title": "Pausen bearbeiten",
+      "body": "<a href='help_me_use.html?type=edit_note'> Erfahren Sie, wie Sie eine bereits eingegebene Notiz bearbeiten </a>"
+    }
+  ]
+}

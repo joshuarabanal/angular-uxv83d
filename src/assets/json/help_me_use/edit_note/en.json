@@ -1,0 +1,17 @@
+{
+  "title": "Edit Notes",
+  "steps": [
+    {
+      "title": "Select the Note to Edit",
+      "body": "click on the note that you want to edit in the sheet music"
+    },
+    {
+      "title": "Open edit dialog",
+      "body": "Open the note editor dialog, by clicking on the pencil icon in the top right corner of the screen."
+    },
+    {
+      "title": "Edit the note",
+      "body": "The dialog will help you edit the note you selected. if you need help using the dialog click the question mark icon in the top right corner of the dialog."
+    }
+  ]
+}

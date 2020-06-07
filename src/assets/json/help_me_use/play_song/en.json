@@ -1,0 +1,13 @@
+{
+  "title": "Play Song",
+  "steps": [
+    {
+      "title": "Play As You Edit",
+      "body": "You can listen you your song while you edit it using the play button in the top right corner of the application. It plays back your songs so you can quickly make edits"
+    },
+    {
+      "title": "Save your songs as audio",
+      "body": "You can also export your songs to Audio files to save for later or publish to your friends. <a href='help_me_use.html?type=share_music'> click here </a> to learn how to share the audio file."
+    }
+  ]
+}

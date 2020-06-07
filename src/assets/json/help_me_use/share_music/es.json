@@ -1,0 +1,17 @@
+{
+  "title": "comparte su canción",
+  "steps": [
+    {
+      "title": "comparte tu canción",
+      "body": "Uno puede compartir su música a varios formatos de archivo. El primer paso es guardar la canción."
+    },
+    {
+      "title": "Guardar canción",
+      "body": "abra el menú en el lado derecho de la pantalla y haga clic en el botón Guardar (el botón es un disquete). También puede cambiar el nombre de su canción haciendo clic en el título junto al botón Guardar y cambiando el texto."
+    },
+    {
+      "title": "compartir canción",
+      "body": "Luego haga clic en el botón compartir en el mismo menú. A partir de ahí, aparecerá una ventana emergente. Puedes elegir cómo quieres compartir la canción en esta ventana."
+    }
+  ]
+}

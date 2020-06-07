@@ -1,0 +1,17 @@
+{
+  "title": "Notizen bearbeiten",
+  "steps": [
+    {
+      "title": "Wählen Sie die zu bearbeitende Notiz aus",
+      "body": "Klicken Sie auf die Notiz, die Sie in den Noten bearbeiten möchten"
+    },
+    {
+      "title": "Öffnungsdialog öffnen",
+      "body": "Öffnen Sie den Notizeditor, indem Sie auf das Stiftsymbol in der oberen rechten Ecke des Bildschirms klicken."
+    },
+    {
+      "title": "Bearbeiten Sie die Notiz",
+      "body": "Der Dialog hilft Ihnen beim Bearbeiten der ausgewählten Notiz. Wenn Sie Hilfe bei der Verwendung des Dialogfelds benötigen, klicken Sie auf das Fragezeichen in der oberen rechten Ecke des Dialogfelds."
+    }
+  ]
+}

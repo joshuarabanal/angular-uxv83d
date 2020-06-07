@@ -1,0 +1,17 @@
+{
+  "title": "Enter a note",
+  "steps": [
+    {
+      "title": "Enter Notes",
+      "body": "You enter notes Using the Keyboard. Simply press the keys on the keyboard and they appear where the blinking cursor is on the page."
+    },
+    {
+      "title": "Enter Different Notes",
+      "body": "To change the length of the note you enter, click on the list of note types floating above the keyboard. Click on Half Note for example, and now the keyboard enters half notes into the music. The note that is highlighted is the note that is entered."
+    },
+    {
+      "title": "Enter Rests",
+      "body": "<a href='help_me_use.html?type=enter_rest'>click here to learn how</a>"
+    }
+  ]
+}

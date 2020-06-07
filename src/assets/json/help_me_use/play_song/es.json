@@ -1,0 +1,13 @@
+{
+  "title": "reproducir canción",
+  "steps": [
+    {
+      "title": "reproducir mientras editas",
+      "body": "Puedes escuchar tu canción mientras la editas usando el botón de reproducción en la esquina superior derecha de la aplicación. Reproduce tus canciones para que puedas hacer ediciones rápidamente"
+    },
+    {
+      "title": "Guarda tus canciones como audio",
+      "body": "También puede exportar sus canciones a archivos de audio para guardarlas más tarde o publicarlas con sus amigos. <a href='help_me_use.html?type=share_music'> haga clic aquí </a> para aprender cómo compartir el archivo de audio."
+    }
+  ]
+}

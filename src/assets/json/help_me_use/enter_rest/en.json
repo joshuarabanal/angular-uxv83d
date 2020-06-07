@@ -1,0 +1,21 @@
+{
+  "title": "Edit Note",
+  "steps": [
+    {
+      "title": "Select Rest Entry",
+      "body": "click on the quarter rest button to open up the enter rests tool above the keyboard."
+    },
+    {
+      "title": "Select the Rest",
+      "body": "now, the notes transform into rests. Select the rest you want to enter."
+    },
+    {
+      "title": "Exit rests tool",
+      "body": "To return to regular note entry, click on the quarter note. this will change all the notes back to regular notes."
+    },
+    {
+      "title": "Edit Rests",
+      "body": "<a href='help_me_use.html?type=edit_note'>learn how to edit a note thats already entered</a>"
+    }
+  ]
+}

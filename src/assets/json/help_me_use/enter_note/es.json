@@ -1,0 +1,17 @@
+{
+  "title": "Ingrese una nota",
+  "steps": [
+    {
+      "title": "Introduce notas",
+      "body": "Usted ingresa notas usando el teclado. Simplemente presione las teclas en el teclado y aparecerán donde está el cursor parpadeante en la página."
+    },
+    {
+      "title": "Ingrese diferentes notas",
+      "body": "Para cambiar la duración de la nota que ingresó, haga clic en la lista de tipos de notas que flotan sobre el teclado. Haga clic en Half Note, por ejemplo, y ahora el teclado introduce medias notas en la música. La nota que se resalta es la nota que se ingresa."
+    },
+    {
+      "title": "Introducir descansos",
+      "body": "<a href='help_me_use.html?type=enter_rest'> haga clic aquí para saber cómo </a>"
+    }
+  ]
+}

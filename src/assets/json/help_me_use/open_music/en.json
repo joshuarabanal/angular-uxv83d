@@ -1,0 +1,13 @@
+{
+  "title": "Import songs",
+  "steps": [
+    {
+      "title": "Open external files",
+      "body": "You can open music xml files from external sources to view in the application. Download them on your phone and when you attempt to open the file, this application should show up as an option. If the app does not show up, you cannot open this specific file in our app."
+    },
+    {
+      "title": "browse sample songs",
+      "body": "You can download some sample songs by searching google for (musicXML files)"
+    }
+  ]
+}
