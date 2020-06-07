@@ -1,3 +1,5 @@
+import {ValuesEN} from "../../assets/res/values/ValuesEN";
+
 export class Context {
   private static stringSpecific: any;
   private static stringDefaults: any;
@@ -12,12 +14,8 @@ export class Context {
 
   public static async getString(name: string): Promise<string> {
     if (Context.stringSpecific == null) {//nan
-      Context.stringSpecific = await (await fetch(
-        "assets/res/values/" + Context.getLanguageCode() + ".json"
-      )).json();
-      Context.stringDefaults = await (await fetch(
-        "assets/res/values/en.json"
-      )).json();
+      Context.stringSpecific = new ValuesEN();
+      Context.stringDefaults = ne
     }
 
     let dir = name.split(".");

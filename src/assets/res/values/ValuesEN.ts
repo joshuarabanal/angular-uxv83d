@@ -1,5 +1,5 @@
 export class ValuesEN{
-  help: {
+  help = {
     "action_bar": "Help me Use this App",
     "subtitle": "What can we help you use?",
     "enter_note": "Entering a Note",
@@ -9,7 +9,7 @@ export class ValuesEN{
     "style_notes": "Style Notes and Songs",
     "play_songs": "Play Your Songs"
   };
-  root: {
+  root = {
     "action_bar": "Write Music",
     "action_button": "Download",
     "page1_title": "Make music happen where you are now",
