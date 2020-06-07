@@ -11,7 +11,7 @@ export class Context {
   }
 
   public static async getString(name: string): Promise<string> {
-    if (Context.stringSpecific == null) {
+    if (Context.stringSpecific == null) {//n
       Context.stringSpecific = await (await fetch(
         "assets/res/values/" + Context.getLanguageCode() + ".json"
       )).json();
