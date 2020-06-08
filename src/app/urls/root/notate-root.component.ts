@@ -25,7 +25,11 @@ export class NotateRoot {
     this.text.page6_body = await Context.getString("root.page6_body");
   }
   public img = {
-    paralax: Context.getImgUrl('parallax.jpg')
+    paralax: Context.getImgUrl('parallax.jpg'),
+    promo_phone: Context.getImgUrl('promo_phone.jpg'),
+    promo1 : Context.getImgUrl('promo1.png'),
+    promo2: Context.getImgUrl('promo2.png'),
+    promo3: Context.getImgUrl('promo3.png')
   }
   public text = {
     action_bar: null, //Write Music
