@@ -38,7 +38,7 @@
     flex-direction: row-reverse;
     flex-grow: 2;
     width: calc(100% - 4px);
-    background: url("assets/img/root/split-background-left.svg");
+    background: url("https://s3.amazonaws.com/assets.composemusic.org/notate/img/split-background-left.svg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 11px;
@@ -50,7 +50,7 @@
   .splitScreenRight {
     display: flex;
     width: calc(100% - 4px);
-    background: url("assets/img/root/split-background-right.svg");
+    background: url("https://s3.amazonaws.com/assets.composemusic.org/notate/img/split-background-right.svg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 11px;
