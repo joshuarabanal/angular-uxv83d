@@ -3,7 +3,10 @@
   padding: 5%;
   width: 90%;
   line-height: normal;
+  display:block;
 }
+
+
 .left {
   -webkit-animation: fadeinleft 0.75s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadeinleft 0.75s; /* Firefox < 16 */

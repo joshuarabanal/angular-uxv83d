@@ -9,31 +9,33 @@ export class AnimateOnScroll {
   private attr:string;
   @Input("visible-class") className;
 
+  private listener;
+
   constructor(el: ElementRef) {
-    var thisref = this;
     this.elem = el.nativeElement;
     var elem = el.nativeElement;
     var className:string  = this.className;
 
-
+    this.listener = this.scrollEvt.bind(this);
     if(window.innerHeight){//if on scroll listeners supported
-      window.addEventListener("scroll", scrollEvt);
+      window.addEventListener("scroll", this.listener);
     }
 
-    scrollEvt();
-    function scrollEvt() {
-        var rect = elem.getBoundingClientRect();
+    this.listener();
+    
+
+  }
+  scrollEvt() {
+        var rect = this.elem.getBoundingClientRect();
         if(window.innerHeight){
           if(window.innerHeight>rect.top){
-            elem.classList.add(thisref.className);
+            this.elem.classList.add(this.className);
           }
           else{
-            elem.classList.remove(thisref.className);
+            this.elem.classList.remove(this.className);
           }
         }
       };
-
-  }
 
     
   

@@ -7,12 +7,12 @@ import { Component, OnInit , Input, HostBinding, HostListener, ViewChild, Elemen
 })
 export class PageSection implements OnInit {
   @Input("title") title: string;
-  @HostBinding('style.float') @Input("float") float: string ;
+  @HostBinding('style.float') @Input("float") public float: string ;
   @HostBinding('style.top.px') public pos: number;
   
   num: number = 0;
 
-
+/*
   getDisplayType(): string{
     if(this.float=='left'){
         if(this.title){ return "leftTitle"; }
@@ -27,7 +27,7 @@ export class PageSection implements OnInit {
         return "";
     }
   }
-
+*/
   constructor() {
 
   }

@@ -35,6 +35,8 @@
   }
   .splitScreenLeft {
     display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 2;
     width: calc(100% - 4px);
     background: url("assets/img/root/split-background-left.svg");
     background-repeat: no-repeat;
