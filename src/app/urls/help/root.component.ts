@@ -7,15 +7,15 @@ import { Context } from "../../mockAndroid/Context";
   styleUrls: ["./help-page.component.css"]
 })
 export class HelpPage {
-  ngOnInit() {
-    this.text.actionBar = Context.getString("help.action_bar"); //Help me Use this App
-    this.text.subtitle = Context.getString("help.subtitle"); //What can we help you use?
-    this.text.enter_note = Context.getString("help.enter_note"); //Entering a Note
-    this.text.edit_note = Context.getString("help.edit_note"); //Edit a Note
-    this.text.share_music = Context.getString("help.share_music"); //Share Music
-    this.text.open_music = Context.getString("help.open_music"); //Open Music
-    this.text.style_notes = Context.getString("help.style_notes"); //Style Notes and Songs
-    this.text.play_songs = Context.getString("help.play_songs"); //Play Your Songs
+  async ngOnInit() {
+    this.text.actionBar = await Context.getString("help.action_bar"); //Help me Use this App
+    this.text.subtitle =await Context.getString("help.subtitle"); //What can we help you use?
+    this.text.enter_note =await Context.getString("help.enter_note"); //Entering a Note
+    this.text.edit_note =await Context.getString("help.edit_note"); //Edit a Note
+    this.text.share_music =await Context.getString("help.share_music"); //Share Music
+    this.text.open_music =await Context.getString("help.open_music"); //Open Music
+    this.text.style_notes =await Context.getString("help.style_notes"); //Style Notes and Songs
+    this.text.play_songs = await Context.getString("help.play_songs"); //Play Your Songs
   }
   public text = {
     actionBar: null, //Help me Use this App
