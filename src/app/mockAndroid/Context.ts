@@ -34,5 +34,11 @@ export class Context {
       }
     }
     return retu;
+  
+  
+  }
+
+  public static getImgUrl(name:String):String{
+    return "https://s3.amazonaws.com/assets.composemusic.org/notate/img/"+name;
   }
 }

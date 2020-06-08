@@ -14,7 +14,7 @@ export class HelpPage {
     this.text.edit_note =await Context.getString("help.edit_note"); //Edit a Note
     this.text.share_music =await Context.getString("help.share_music"); //Share Music
     this.text.open_music =await Context.getString("help.open_music"); //Open Music
-    this.text.style_notes =await Context.getString("help.style_notes"); //Style Notes and Songs
+    this.text.style_notes = await Context.getString("help.style_notes"); //Style Notes and Songs
     this.text.play_songs = await Context.getString("help.play_songs"); //Play Your Songs
   }
   public text = {
@@ -26,5 +26,8 @@ export class HelpPage {
     open_music: null, //Open Music
     style_notes: null, //Style Notes and Songs
     play_songs: null //Play Your Songs
+  };
+  public img = {
+    icon: Context.getImgUrl("icon.png")
   };
 }

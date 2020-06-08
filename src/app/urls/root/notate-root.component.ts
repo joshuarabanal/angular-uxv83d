@@ -24,6 +24,9 @@ export class NotateRoot {
     this.text.page6_title = await Context.getString("root.page6_title");
     this.text.page6_body = await Context.getString("root.page6_body");
   }
+  public img = {
+    paralax: Context.getImgUrl('parallax.jpg')
+  }
   public text = {
     action_bar: null, //Write Music
     action_button1: null, //Download
