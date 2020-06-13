@@ -4,7 +4,7 @@ import { Component, OnInit, Input, HostListener } from "@angular/core";
   selector: "action-bar",
   templateUrl: "./action-bar.component.html",
   styleUrls: ["./action-bar.component.css"]
-})
+}) 
 export class ActionBarComponent implements OnInit {
   @Input("title") title: string;
   @Input("action-icon") actionIcon: string[];
