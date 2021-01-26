@@ -11,7 +11,9 @@
     },
     {
       "title": "Reste eingeben",
-      "body": "<a href='help_me_use.html?type=enter_rest'> Klicken Sie hier, um zu erfahren, wie </a>"
+      "body": "",
+      "more_link":"help_me_use.html?type=enter_rest",
+      "more_text":"Klicken Sie hier, um zu erfahren, wie"
     }
   ]
 }

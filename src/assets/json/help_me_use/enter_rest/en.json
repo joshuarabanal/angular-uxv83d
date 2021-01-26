@@ -15,7 +15,10 @@
     },
     {
       "title": "Edit Rests",
-      "body": "<a href='help_me_use.html?type=edit_note'>learn how to edit a note thats already entered</a>"
+      "body": "",
+      "more_link":"help_me_use.html?type=edit_note",
+      "more_text":"learn how to edit a note thats already entered"
+      
     }
   ]
 }

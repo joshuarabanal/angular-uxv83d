@@ -11,7 +11,9 @@
     },
     {
       "title": "Введите отдых",
-      "body": "<a href='help_me_use.html?type=enter_rest'> нажмите здесь, чтобы узнать, как </a>"
+      "body": "",
+      "more_link":"help_me_use.html?type=enter_rest",
+      "more_text":" нажмите здесь, чтобы узнать, как"
     }
   ]
 }

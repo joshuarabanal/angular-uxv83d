@@ -11,7 +11,9 @@
     },
     {
       "title": "Introducir descansos",
-      "body": "<a href='help_me_use.html?type=enter_rest'> haga clic aquí para saber cómo </a>"
+      "body": "",
+      "more_link":"help_me_use.html?type=enter_rest",
+      "more_text":"haga clic aquí para saber cómo"
     }
   ]
 }

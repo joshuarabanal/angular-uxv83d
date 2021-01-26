@@ -1,9 +1,38 @@
 <mat-toolbar color="primary">
-  <span>{{steps.title}}</span>
+	<span>{{steps.title}}</span>
 </mat-toolbar>
 
 <mat-vertical-stepper>
-  <mat-step *ngFor="let step of steps.steps" label="{{step.title}}">
-    <div [innerHTML]="step.body"></div>
-  </mat-step>
+	<mat-step *ngFor="let step of steps.steps" label="{{step.title}}">
+		<div>{{step.body}}</div>
+		<a *ngIf="step.more_link" href="{{step.more_link}}">
+			{{step.more_text}}
+		</a>
+	</mat-step>
 </mat-vertical-stepper>
+
+<mat-horizontal-stepper linear #stepper>
+	<mat-step>
+		<ng-template matStepLabel>Fill out your name</ng-template>
+		<input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
+		<div>
+			<button mat-button matStepperNext>Next</button>
+		</div>
+	</mat-step>
+	<mat-step label="Fill out your address">
+		<input matInput formControlName="secondCtrl" placeholder="Ex. 1 Main St, New York, NY"
+               required>
+		<div>
+			<button mat-button matStepperPrevious>Back</button>
+			<button mat-button matStepperNext>Next</button>
+		</div>
+	</mat-step>
+	<mat-step>
+		<ng-template matStepLabel>Done</ng-template>
+		<p>You are now done.</p>
+		<div>
+			<button mat-button matStepperPrevious>Back</button>
+			<button mat-button (click)="stepper.reset()">Reset</button>
+		</div>
+	</mat-step>
+</mat-horizontal-stepper>
