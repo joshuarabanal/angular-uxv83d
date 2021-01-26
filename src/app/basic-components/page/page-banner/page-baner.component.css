@@ -12,6 +12,7 @@ h1 {
   float: left;
   font-weight: 200;
   color: var(--action-bar-text-color, white);
+  font-family: "Roboto", arial, sans-serif;
 }
 button {
   float: right;
