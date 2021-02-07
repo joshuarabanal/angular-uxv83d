@@ -3,11 +3,10 @@
 </mat-toolbar>
 
 <mat-vertical-stepper>
-	<mat-step *ngFor="let step of steps.steps" label="{{step.title}}">
-		<div>{{step.body}}</div>
-		<a *ngIf="step.more_link" href="{{step.more_link}}">
-			{{step.more_text}}
+	<mat-step *ngFor="let step of steps.steps" label="step.title">
+		<div>step.body</div>
+		<a *ngIf="step.more_link" href="step.more_link">
+			step.more_text
 		</a>
 	</mat-step>
 </mat-vertical-stepper>
-
